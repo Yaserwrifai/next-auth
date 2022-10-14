@@ -1,4 +1,4 @@
-import ProfileForm from './profile-form';
+import ProfileForm from './ProfileForm';
 import classes from './user-profile.module.css';
 
 function UserProfile() {
@@ -20,7 +20,7 @@ function UserProfile() {
   return (
     <section className={classes.profile}>
       <h1>Your User Profile</h1>
-      <Profile-Form onChangePassword={changePasswordHandler} />
+      <ProfileForm onChangePassword={changePasswordHandler} />
     </section>
   );
 }

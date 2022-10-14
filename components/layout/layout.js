@@ -1,5 +1,5 @@
 import { Fragment } from 'react';
-import Sidebar from "../Sidebar/Sidebar.tsx";
+import Sidebar from "../Sidebar/Sidebar";
 
 
 import MainNavigation from './main-navigation';

@@ -2,7 +2,9 @@ import { useRef } from 'react';
 import classes from './profile-form.module.css';
 
 
+
 function ProfileForm(props) {
+
   const oldPasswordRef = useRef();
   const newPasswordRef = useRef();
 
@@ -31,7 +33,7 @@ function ProfileForm(props) {
         <input type='password' id='old-password' ref={oldPasswordRef} />
       </div>
       <div className={classes.action}>
-        <button onclick={onChangePassword}>Change Password</button>
+        <button onclick={props.onChangePassword}>Change Password</button>
       </div>
     </form>
   );
